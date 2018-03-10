@@ -1,0 +1,64 @@
+body{
+	background-color: #fefefe;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	height: 100%;
+
+}
+.container{
+	background: #fff;
+	box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+	padding: 60px 69px 113px 60px;
+	margin: 50px auto;
+	width: 1000px;
+	height: 600px;
+	max-height: 100%;
+}
+
+/* Text style for "Willow Crest" */
+h1{
+font-size: 2.3em;
+color: #171717;
+font-family: "Playfair Display";
+font-weight: 400;
+letter-spacing: -0.21px;
+}
+
+.letter::first-letter{
+	font-size: 6em;
+	font-family: 'Playfair Display', serif;
+	float: left;
+	text-align: left;
+	line-height: 0.81;
+	letter-spacing: -0.6px;
+}
+p{
+	color: rgba(23, 23, 23, 0.7);
+	font-weight: 300;
+	line-height: 1.89;
+	letter-spacing: -0.1px;
+	margin: 0;
+
+}
+blockquote{
+ font-size: 1.3em;
+ line-height: 1.42em;
+ color: rgba(23, 23, 23, 0.7);
+}
+blockquote#l-l:before {
+	content: '“';
+	font-size: 2em;
+	font-weight: 300;
+	margin-right: 5px;
+}
+button {
+	font-family: 'Lato';
+	font-weight: bold;
+	line-height: 1.89;
+  letter-spacing: 1.8px;
+	padding: 1em 4.2em;
+  background-color: transparent;
+  border: solid 2px #eaa258;
+	text-transform: uppercase;
+	color: #eaa258;
+}
